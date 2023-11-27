@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Merriweather:wght@300&family=Poppins:wght@900&family=Roboto+Slab:wght@100;300&display=swap');
+
+body{
+    background-image: url('https://media.kasperskycontenthub.com/wp-content/uploads/sites/103/2021/04/29071550/The-5-Password-Security-Rules-Your-Employees-Are-Ignoring.jpg');
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size:larger;
+}
+
+.nav-contents {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-content-list {
+    display: flex;
+    font-family: 'Merriweather', serif;
+    background-color:#000000;
+    border-radius: 2rem;
+    margin-top: .8rem;
+}
+
+.nav-items {
+    margin-top: .9rem;
+    margin-right: 1.3rem;
+    color: #ffffff;
+}
+
+ul {
+    list-style: none;
+}
+
+#parentContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.cardContainer{
+    background-color:rgb(228, 220, 75);
+    padding: 1.3rem;
+    border-radius: 1rem;
+    margin-bottom: rem;
+    margin-top: 5rem;
+}
+
+#inputAddress{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.cardContainer-title{
+    margin-bottom: 1rem;
+}
+#checkButtons{
+    margin-left: 4rem;
+}
+
+#generateButton{
+    margin-top: 1rem;
+    margin-left: 4.5rem;
+}
+
+
